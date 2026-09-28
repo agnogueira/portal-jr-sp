@@ -43,7 +43,8 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - A página Apoie apresenta os quatro projetos e encerra com uma chamada direcionada ao apoio de uma iniciativa específica.
 - Manter espaçamento confortável nas transições entre cores e seções.
 - O rodapé reúne os dados jurídicos e contatos na primeira coluna, a navegação e as redes sociais na segunda e o retorno ao topo na terceira.
-- A página Transparência segue a organização aprovada no documento oficial: introdução, documentos exclusivamente institucionais e perguntas frequentes.
+- A página Transparência apresenta uma estrutura enxuta: Documentos e Governança, documentos contábeis e atividades de 2025 e perguntas frequentes.
+- Políticas e diretrizes institucionais terão uma página específica e não fazem parte da página Transparência.
 - Até a validação dos arquivos oficiais, os cartões de documentos devem permanecer identificados como links em atualização.
 
 ### Conteúdo confirmado
