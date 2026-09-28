@@ -9,6 +9,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - `projetos.html` — projetos permanentes e projetos em captação
 - `participe.html` — formas de participação e modalidades
 - `apoie.html` — apoio, patrocínio, parcerias e projetos em captação
+- `transparencia.html` — documentos institucionais e perguntas frequentes
 
 ## Referências de conteúdo
 
@@ -35,12 +36,15 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - Não usar numeração nas seções, modalidades ou princípios da organização.
 - As modalidades fazem parte da apresentação da atuação esportiva.
 - A grade de modalidades forma dois conjuntos espelhados: Natação ocupa altura dupla ao lado de Atletismo e Futsal empilhados; Ginástica ocupa altura dupla ao lado de Iniciação e Dança empilhadas.
+- No desktop, a grade de modalidades usa módulos mais altos para valorizar as fotografias, inclusive nos cartões de altura simples.
 - Os projetos possuem página própria porque estão relacionados a execução, patrocínio e leis de incentivo.
 - A página Apoie separa formas de colaboração dos projetos que estão em captação.
 - A página Participe concentra local, horários e inscrição de cada atividade; enquanto os dados não forem confirmados, os campos devem permanecer identificados como informação em atualização.
 - A página Apoie apresenta os quatro projetos e encerra com uma chamada direcionada ao apoio de uma iniciativa específica.
 - Manter espaçamento confortável nas transições entre cores e seções.
 - O rodapé reúne os dados jurídicos e contatos na primeira coluna, a navegação e as redes sociais na segunda e o retorno ao topo na terceira.
+- A página Transparência segue a organização aprovada no documento oficial: introdução, documentos exclusivamente institucionais e perguntas frequentes.
+- Até a validação dos arquivos oficiais, os cartões de documentos devem permanecer identificados como links em atualização.
 
 ### Conteúdo confirmado
 
@@ -53,6 +57,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - Os projetos em captação destacados na página Apoie são:
   - Futsal Down — Polos do Interior, aprovado na Lei Federal de Incentivo ao Esporte.
   - Arte sem Fronteiras: Expressão e Inclusão, aprovado na Lei Rouanet.
+- Os textos e as perguntas frequentes da página Transparência foram extraídos do documento oficial “Conteúdos do Novo Site - JR-SP” no Google Drive.
 
 ## Manutenção
 
