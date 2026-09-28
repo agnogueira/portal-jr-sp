@@ -27,6 +27,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - Cantos discretamente arredondados em cartões, imagens e botões para trazer leveza sem descaracterizar a instituição.
 - Páginas internas usam um destaque inicial menor que o da página inicial.
 - O modelo visual de `quem-somos.html` é a principal referência para as demais páginas internas.
+- O cabeçalho apresenta somente o símbolo da JR, com o menu imediatamente à sua direita e os acessos ao Instagram e Facebook alinhados ao lado direito.
 
 ### Organização e hierarquia
 
@@ -35,6 +36,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - Os projetos possuem página própria porque estão relacionados a execução, patrocínio e leis de incentivo.
 - A página Apoie separa formas de colaboração dos projetos que estão em captação.
 - Manter espaçamento confortável nas transições entre cores e seções.
+- O rodapé reúne os dados jurídicos e contatos na primeira coluna, a navegação e as redes sociais na segunda e o retorno ao topo na terceira.
 
 ### Conteúdo confirmado
 
