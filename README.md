@@ -34,7 +34,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 
 - Não usar numeração nas seções, modalidades ou princípios da organização.
 - As modalidades fazem parte da apresentação da atuação esportiva.
-- A grade de modalidades usa duas linhas, cada uma com um cartão destacado e dois cartões menores, mantendo todos com altura suficiente para leitura.
+- A grade de modalidades forma dois conjuntos espelhados: Natação ocupa altura dupla ao lado de Atletismo e Futsal empilhados; Ginástica ocupa altura dupla ao lado de Iniciação e Dança empilhadas.
 - Os projetos possuem página própria porque estão relacionados a execução, patrocínio e leis de incentivo.
 - A página Apoie separa formas de colaboração dos projetos que estão em captação.
 - A página Participe concentra local, horários e inscrição de cada atividade; enquanto os dados não forem confirmados, os campos devem permanecer identificados como informação em atualização.
