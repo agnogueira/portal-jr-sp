@@ -26,6 +26,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - Fotografias em destaque, com degradês e transparências para preservar a legibilidade dos textos e do menu.
 - Cantos discretamente arredondados em cartões, imagens e botões para trazer leveza sem descaracterizar a instituição.
 - Páginas internas usam um destaque inicial menor que o da página inicial.
+- Os títulos principais das páginas internas não usam ponto final.
 - O modelo visual de `quem-somos.html` é a principal referência para as demais páginas internas.
 - O cabeçalho apresenta somente o símbolo da JR, com o menu imediatamente à sua direita e os acessos ao Instagram e Facebook alinhados ao lado direito.
 
@@ -33,8 +34,11 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 
 - Não usar numeração nas seções, modalidades ou princípios da organização.
 - As modalidades fazem parte da apresentação da atuação esportiva.
+- A grade de modalidades usa duas linhas, cada uma com um cartão destacado e dois cartões menores, mantendo todos com altura suficiente para leitura.
 - Os projetos possuem página própria porque estão relacionados a execução, patrocínio e leis de incentivo.
 - A página Apoie separa formas de colaboração dos projetos que estão em captação.
+- A página Participe concentra local, horários e inscrição de cada atividade; enquanto os dados não forem confirmados, os campos devem permanecer identificados como informação em atualização.
+- A página Apoie apresenta os quatro projetos e encerra com uma chamada direcionada ao apoio de uma iniciativa específica.
 - Manter espaçamento confortável nas transições entre cores e seções.
 - O rodapé reúne os dados jurídicos e contatos na primeira coluna, a navegação e as redes sociais na segunda e o retorno ao topo na terceira.
 
@@ -44,6 +48,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - A equipe apresentada inicialmente possui 15 profissionais; outros poderão ser adicionados.
 - Não usar a expressão “profissionais dedicados integralmente”, pois nem todos trabalham exclusivamente para a Associação.
 - A equipe deve aparecer com fotografias menores e tratadas em preto e branco para maior unidade visual.
+- As biografias da equipe têm como fonte o site atual da JR e podem ser editadas apenas para uniformizar extensão e leitura, preservando as informações profissionais.
 - O projeto Futsal Down — Polos do Interior usa a fotografia dos garotos jogando futebol.
 - Os projetos em captação destacados na página Apoie são:
   - Futsal Down — Polos do Interior, aprovado na Lei Federal de Incentivo ao Esporte.
