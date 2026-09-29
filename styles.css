@@ -535,3 +535,60 @@ footer { padding: 6rem max(4vw, calc((100vw - var(--max)) / 2)) 2rem; color: whi
   .safeguarding-grid article { min-height: 290px; padding: 2.2rem; }
   .safe-document-list article { grid-template-columns: 1fr; gap: 1.2rem; }
 }
+
+/* Página Atuação */
+.action-hero { position: relative; min-height: 570px; color: white; background: url("assets/atletismo.jpg") center 38% / cover no-repeat; overflow: hidden; }
+.action-hero:before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(67,0,13,.97) 0%, rgba(126,1,25,.84) 45%, rgba(150,5,31,.3) 76%, rgba(108,0,21,.12) 100%); }
+.action-hero:after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(74,0,14,.42), transparent 48%); }
+.action-hero-copy { position: relative; z-index: 1; min-height: 570px; width: min(92%, var(--max)); margin: auto; padding-top: 6rem; display: flex; flex-direction: column; justify-content: center; }
+.action-hero h1 { max-width: 920px; margin: 0; font-size: clamp(3.4rem, 5.3vw, 5.8rem); }
+.action-hero h1 em { font-family: Georgia, serif; font-weight: 400; }
+.action-hero p { max-width: 650px; margin: 2rem 0 0; color: rgba(255,255,255,.84); font-size: 1.1rem; }
+.pathways-intro, .locations-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: start; }
+.pathways-intro > div:last-child { padding-top: 3rem; font-size: 1.05rem; }
+.pathway-steps { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 5rem; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.pathway-steps article { min-height: 230px; padding: 2.2rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.pathway-steps span { color: var(--red); font: 700 1.4rem/1.2 "Manrope", sans-serif; }
+.pathway-steps p { margin: 3.5rem 0 0; }
+.action-sports { padding-top: 8rem; }
+.action-inline-cta { display: flex; justify-content: space-between; align-items: center; gap: 2rem; margin-top: 2.5rem; padding-top: 2.5rem; border-top: 1px solid var(--line); }
+.action-inline-cta p { margin: 0; font: 600 clamp(1.3rem, 2vw, 1.8rem)/1.3 "Manrope", sans-serif; }
+.action-projects, .action-final { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: center; color: white; background: var(--wine); }
+.action-projects h2, .action-final h2 { max-width: 760px; }
+.action-projects > div:last-child, .action-final > div:last-child { color: rgba(255,255,255,.76); font-size: 1.05rem; }
+.action-projects .button { margin-top: 1.5rem; }
+.knowledge { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.knowledge-photo { min-height: 670px; border-radius: 12px; background: url("assets/futsal.jpg") center / cover; }
+.knowledge-copy { padding: clamp(3rem, 6vw, 6rem); display: flex; flex-direction: column; justify-content: center; }
+.knowledge-copy h2 { font-size: clamp(2.8rem, 4.7vw, 5rem); }
+.knowledge-copy .text-link { align-self: flex-start; margin-top: 1.5rem; }
+.locations-head { align-items: end; padding-bottom: 4rem; }
+.locations-head > p { max-width: 500px; font-size: 1.05rem; }
+.location-placeholder { min-height: 340px; padding: clamp(2.5rem, 5vw, 5rem); border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.32); display: flex; justify-content: space-between; align-items: flex-end; gap: 3rem; }
+.location-placeholder > div { max-width: 680px; }
+.location-placeholder span { color: var(--red); font-size: .72rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+.location-placeholder h3 { margin: 2rem 0 1rem; font-size: clamp(2rem, 3.5vw, 3.7rem); }
+.location-placeholder p { margin-bottom: 0; }
+.action-final { background: var(--red); }
+.action-final-buttons { display: flex; align-items: center; gap: 2rem; margin-top: 2rem; }
+
+@media (max-width: 960px) {
+  .pathways-intro, .locations-head, .action-projects, .action-final { grid-template-columns: 1fr; }
+  .pathways-intro > div:last-child { padding-top: 0; }
+  .pathway-steps { grid-template-columns: 1fr 1fr; }
+  .knowledge { grid-template-columns: 1fr; }
+  .knowledge-photo { min-height: 520px; }
+}
+
+@media (max-width: 720px) {
+  .action-hero { min-height: 580px; background-position: 62% center; }
+  .action-hero:before { background: linear-gradient(0deg, rgba(55,0,11,.98) 0%, rgba(123,0,23,.72) 62%, rgba(123,0,23,.2) 100%); }
+  .action-hero-copy { min-height: 580px; width: auto; margin: 0 1.25rem; padding: 9rem 0 4rem; justify-content: flex-end; }
+  .action-hero h1 { font-size: clamp(3rem, 13vw, 4.2rem); }
+  .pathway-steps { grid-template-columns: 1fr; }
+  .pathway-steps article { min-height: 200px; }
+  .action-inline-cta, .location-placeholder, .action-final-buttons { align-items: flex-start; flex-direction: column; }
+  .knowledge-photo { min-height: 430px; }
+  .knowledge-copy { padding: 4rem 1.5rem; }
+  .location-placeholder { min-height: 420px; padding: 2.2rem; }
+}
