@@ -584,3 +584,42 @@ footer { padding: 6rem max(4vw, calc((100vw - var(--max)) / 2)) 2rem; color: whi
   .knowledge-photo { min-height: 430px; }
   .knowledge-copy { padding: 4rem 1.5rem; }
 }
+
+/* Página Fale com a JR */
+.contact-hero { position: relative; min-height: 570px; color: white; background: url("assets/hero.jpg") center 32% / cover no-repeat; overflow: hidden; }
+.contact-hero:before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(67,0,13,.97) 0%, rgba(126,1,25,.84) 45%, rgba(150,5,31,.28) 76%, rgba(108,0,21,.12) 100%); }
+.contact-hero:after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(74,0,14,.42), transparent 48%); }
+.contact-hero-copy { position: relative; z-index: 1; min-height: 570px; width: min(92%, var(--max)); margin: auto; padding-top: 6rem; display: flex; flex-direction: column; justify-content: center; }
+.contact-hero h1 { margin: 0; font-size: clamp(3.4rem, 5.3vw, 5.8rem); }
+.contact-hero h1 em { font-family: Georgia, serif; font-weight: 400; }
+.contact-hero p { max-width: 620px; margin: 2rem 0 0; color: rgba(255,255,255,.84); font-size: 1.1rem; }
+.contact-intro, .contact-address, .contact-safety { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: center; }
+.contact-intro > p { max-width: 520px; margin: 0; font-size: 1.08rem; }
+.contact-channel-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.contact-channel-grid article { min-height: 430px; padding: clamp(2rem, 3.6vw, 3.8rem); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; align-items: flex-start; }
+.contact-channel-label { color: var(--red); font-size: .72rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+.contact-channel-grid h3 { margin: 3rem 0 1.2rem; font-size: clamp(1.7rem, 2.7vw, 2.8rem); overflow-wrap: anywhere; }
+.contact-channel-grid p { margin-bottom: 2rem; }
+.contact-channel-grid .button, .contact-social-links { margin-top: auto; }
+.contact-social-links { display: flex; flex-wrap: wrap; gap: 1.2rem; }
+.address-card { padding: clamp(2.5rem, 5vw, 5rem); border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+.address-card > p { margin-bottom: 2rem; font: 600 clamp(1.5rem, 2.5vw, 2.3rem)/1.45 "Manrope", sans-serif; }
+.address-card small { display: block; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); color: #6e6666; }
+.contact-safety { color: white; background: var(--wine); }
+.contact-safety > div:last-child { color: rgba(255,255,255,.78); font-size: 1.05rem; }
+.contact-safety .button { margin-top: 1.5rem; }
+
+@media (max-width: 960px) {
+  .contact-intro, .contact-address, .contact-safety { grid-template-columns: 1fr; }
+  .contact-channel-grid { grid-template-columns: 1fr; }
+  .contact-channel-grid article { min-height: 350px; }
+}
+
+@media (max-width: 720px) {
+  .contact-hero { min-height: 580px; background-position: 62% center; }
+  .contact-hero:before { background: linear-gradient(0deg, rgba(55,0,11,.98) 0%, rgba(123,0,23,.72) 62%, rgba(123,0,23,.2) 100%); }
+  .contact-hero-copy { min-height: 580px; width: auto; margin: 0 1.25rem; padding: 9rem 0 4rem; justify-content: flex-end; }
+  .contact-hero h1 { font-size: clamp(3rem, 14vw, 4.4rem); }
+  .contact-channel-grid article { min-height: 330px; padding: 2.2rem; }
+  .address-card { padding: 2.2rem; }
+}

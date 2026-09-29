@@ -12,6 +12,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - `apoie.html` — apoio, patrocínio, parcerias e projetos em captação
 - `transparencia.html` — documentos institucionais e perguntas frequentes
 - `esporte-seguro.html` — compromissos de proteção, orientações institucionais e acesso futuro à Ouvidoria
+- `fale-com-a-jr.html` — canais oficiais, endereço institucional e encaminhamento para Esporte Seguro e Ouvidoria
 
 ## Referências de conteúdo
 
@@ -51,6 +52,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - Políticas e diretrizes institucionais terão uma página específica e não fazem parte da página Transparência.
 - A página Esporte Seguro centraliza os compromissos de proteção e os documentos de salvaguarda, conduta, comunicação de ocorrências, recrutamento seguro, privacidade e uso de imagens.
 - O canal de Ouvidoria permanece identificado como informação em definição e não deve ser substituído pelos contatos gerais da Associação.
+- A página Fale com a JR usa telefone/WhatsApp, e-mail e redes sociais já confirmados; manifestações sensíveis são encaminhadas à área de Esporte Seguro, sem usar os contatos gerais como Ouvidoria.
 - Até a validação dos arquivos oficiais, os cartões de documentos devem permanecer identificados como links em atualização.
 
 ### Conteúdo confirmado
