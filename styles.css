@@ -487,3 +487,51 @@ footer { padding: 6rem max(4vw, calc((100vw - var(--max)) / 2)) 2rem; color: whi
   .faq-list summary span { width: 36px; height: 36px; }
   .faq-list details > div { padding-right: 0; }
 }
+
+/* Página Esporte Seguro */
+.safeguarding-hero { position: relative; min-height: 570px; color: white; background: url("assets/participe-hero.jpg") center 43% / cover no-repeat; overflow: hidden; }
+.safeguarding-hero:before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(67,0,13,.97) 0%, rgba(126,1,25,.84) 45%, rgba(150,5,31,.32) 76%, rgba(108,0,21,.14) 100%); }
+.safeguarding-hero:after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(74,0,14,.42), transparent 48%); }
+.safeguarding-hero-copy { position: relative; z-index: 1; min-height: 570px; width: min(92%, var(--max)); margin: auto; padding-top: 6rem; display: flex; flex-direction: column; justify-content: center; }
+.safeguarding-hero h1 { margin: 0; font-size: clamp(3.4rem, 5.3vw, 5.8rem); }
+.safeguarding-hero h1 em { font-family: Georgia, serif; font-weight: 400; }
+.safeguarding-hero p { max-width: 620px; margin: 2rem 0 0; color: rgba(255,255,255,.84); font-size: 1.1rem; }
+.safeguarding-intro { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: end; }
+.safeguarding-intro > div:last-child { font-size: 1.08rem; }
+.safeguarding-intro > div:last-child p:last-child { margin-bottom: 0; }
+.safeguarding-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: end; padding-bottom: 4rem; }
+.safeguarding-head > p { max-width: 500px; margin-bottom: .4rem; font-size: 1.05rem; }
+.safeguarding-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.safeguarding-grid article { min-height: 330px; padding: clamp(2rem, 4vw, 4rem); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.safeguarding-grid span, .safe-document-list span { color: var(--red); font-size: .72rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
+.safeguarding-grid h3 { max-width: 450px; margin: 3.5rem 0 1.2rem; font-size: clamp(1.8rem, 3vw, 3rem); }
+.safeguarding-grid p { max-width: 500px; margin-bottom: 0; }
+.safe-document-list { border-top: 1px solid var(--line); }
+.safe-document-list article { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; min-height: 150px; padding: 2rem 0; border-bottom: 1px solid var(--line); }
+.safe-document-list h3 { margin: .65rem 0 0; font-size: clamp(1.45rem, 2.5vw, 2.3rem); }
+.safe-document-list strong { color: #6e6666; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
+.ombudsman { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: center; color: white; background: var(--wine); }
+.ombudsman h2 { max-width: 720px; }
+.ombudsman > div:last-child { font-size: 1.08rem; color: rgba(255,255,255,.78); }
+.ombudsman-status { display: inline-flex; margin-top: 1.5rem; padding: .8rem 1rem; border: 1px solid rgba(255,255,255,.32); border-radius: 7px; color: white; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+
+@media (max-width: 1180px) and (min-width: 721px) {
+  .nav-wrap { gap: 1.3rem; }
+  .nav-wrap nav { gap: .85rem; font-size: .7rem; }
+  .header-socials { gap: .4rem; }
+}
+
+@media (max-width: 960px) {
+  .safeguarding-intro, .safeguarding-head, .ombudsman { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px) {
+  .safeguarding-hero { min-height: 580px; background-position: 58% center; }
+  .safeguarding-hero:before { background: linear-gradient(0deg, rgba(55,0,11,.98) 0%, rgba(123,0,23,.72) 62%, rgba(123,0,23,.2) 100%); }
+  .safeguarding-hero-copy { min-height: 580px; width: auto; margin: 0 1.25rem; padding: 9rem 0 4rem; justify-content: flex-end; }
+  .safeguarding-hero h1 { font-size: clamp(3rem, 14vw, 4.4rem); }
+  .safeguarding-head { padding-bottom: 3.5rem; }
+  .safeguarding-grid { grid-template-columns: 1fr; }
+  .safeguarding-grid article { min-height: 290px; padding: 2.2rem; }
+  .safe-document-list article { grid-template-columns: 1fr; gap: 1.2rem; }
+}

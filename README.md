@@ -10,6 +10,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - `participe.html` — formas de participação e modalidades
 - `apoie.html` — apoio, patrocínio, parcerias e projetos em captação
 - `transparencia.html` — documentos institucionais e perguntas frequentes
+- `esporte-seguro.html` — compromissos de proteção, orientações institucionais e acesso futuro à Ouvidoria
 
 ## Referências de conteúdo
 
@@ -45,6 +46,8 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - O rodapé reúne os dados jurídicos e contatos na primeira coluna, a navegação e as redes sociais na segunda e o retorno ao topo na terceira.
 - A página Transparência apresenta uma estrutura enxuta: Documentos e Governança, documentos contábeis e atividades de 2025 e perguntas frequentes.
 - Políticas e diretrizes institucionais terão uma página específica e não fazem parte da página Transparência.
+- A página Esporte Seguro centraliza os compromissos de proteção e os documentos de salvaguarda, conduta, comunicação de ocorrências, recrutamento seguro, privacidade e uso de imagens.
+- O canal de Ouvidoria permanece identificado como informação em definição e não deve ser substituído pelos contatos gerais da Associação.
 - Até a validação dos arquivos oficiais, os cartões de documentos devem permanecer identificados como links em atualização.
 
 ### Conteúdo confirmado
