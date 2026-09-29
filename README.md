@@ -6,7 +6,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 
 - `index.html` — página inicial
 - `quem-somos.html` — apresentação, história, princípios e equipe
-- `atuacao.html` — percursos esportivos, modalidades, projetos, conhecimento e locais de atividades
+- `atuacao.html` — percursos esportivos, modalidades, projetos e compartilhamento de conhecimento
 - `projetos.html` — projetos permanentes e projetos em captação
 - `participe.html` — formas de participação e modalidades
 - `apoie.html` — apoio, patrocínio, parcerias e projetos em captação
@@ -39,7 +39,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - As modalidades fazem parte da apresentação da atuação esportiva.
 - A grade de modalidades forma dois conjuntos espelhados: Natação ocupa altura dupla ao lado de Atletismo e Futsal empilhados; Ginástica ocupa altura dupla ao lado de Iniciação e Dança empilhadas.
 - A página Atuação replica essa grade e apresenta o percurso possível entre conhecer o esporte, praticar, evoluir e competir, sem estabelecer uma trajetória obrigatória.
-- Os locais, endereços, modalidades e horários da página Atuação permanecem sinalizados como informações em atualização até a confirmação da Associação.
+- Locais, horários e formas de inscrição ficam concentrados na página Participe, evitando repetição na página Atuação.
 - No desktop, a grade de modalidades usa módulos mais altos para valorizar as fotografias, inclusive nos cartões de altura simples.
 - Os projetos possuem página própria porque estão relacionados a execução, patrocínio e leis de incentivo.
 - A página Apoie separa formas de colaboração dos projetos que estão em captação.

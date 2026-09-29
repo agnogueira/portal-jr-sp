@@ -544,7 +544,7 @@ footer { padding: 6rem max(4vw, calc((100vw - var(--max)) / 2)) 2rem; color: whi
 .action-hero h1 { max-width: 920px; margin: 0; font-size: clamp(3.4rem, 5.3vw, 5.8rem); }
 .action-hero h1 em { font-family: Georgia, serif; font-weight: 400; }
 .action-hero p { max-width: 650px; margin: 2rem 0 0; color: rgba(255,255,255,.84); font-size: 1.1rem; }
-.pathways-intro, .locations-head { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: start; }
+.pathways-intro { display: grid; grid-template-columns: 1.1fr .9fr; gap: 9vw; align-items: start; }
 .pathways-intro > div:last-child { padding-top: 3rem; font-size: 1.05rem; }
 .pathway-steps { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 5rem; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .pathway-steps article { min-height: 230px; padding: 2.2rem; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
@@ -562,18 +562,11 @@ footer { padding: 6rem max(4vw, calc((100vw - var(--max)) / 2)) 2rem; color: whi
 .knowledge-copy { padding: clamp(3rem, 6vw, 6rem); display: flex; flex-direction: column; justify-content: center; }
 .knowledge-copy h2 { font-size: clamp(2.8rem, 4.7vw, 5rem); }
 .knowledge-copy .text-link { align-self: flex-start; margin-top: 1.5rem; }
-.locations-head { align-items: end; padding-bottom: 4rem; }
-.locations-head > p { max-width: 500px; font-size: 1.05rem; }
-.location-placeholder { min-height: 340px; padding: clamp(2.5rem, 5vw, 5rem); border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.32); display: flex; justify-content: space-between; align-items: flex-end; gap: 3rem; }
-.location-placeholder > div { max-width: 680px; }
-.location-placeholder span { color: var(--red); font-size: .72rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; }
-.location-placeholder h3 { margin: 2rem 0 1rem; font-size: clamp(2rem, 3.5vw, 3.7rem); }
-.location-placeholder p { margin-bottom: 0; }
 .action-final { background: var(--red); }
 .action-final-buttons { display: flex; align-items: center; gap: 2rem; margin-top: 2rem; }
 
 @media (max-width: 960px) {
-  .pathways-intro, .locations-head, .action-projects, .action-final { grid-template-columns: 1fr; }
+  .pathways-intro, .action-projects, .action-final { grid-template-columns: 1fr; }
   .pathways-intro > div:last-child { padding-top: 0; }
   .pathway-steps { grid-template-columns: 1fr 1fr; }
   .knowledge { grid-template-columns: 1fr; }
@@ -587,8 +580,7 @@ footer { padding: 6rem max(4vw, calc((100vw - var(--max)) / 2)) 2rem; color: whi
   .action-hero h1 { font-size: clamp(3rem, 13vw, 4.2rem); }
   .pathway-steps { grid-template-columns: 1fr; }
   .pathway-steps article { min-height: 200px; }
-  .action-inline-cta, .location-placeholder, .action-final-buttons { align-items: flex-start; flex-direction: column; }
+  .action-inline-cta, .action-final-buttons { align-items: flex-start; flex-direction: column; }
   .knowledge-photo { min-height: 430px; }
   .knowledge-copy { padding: 4rem 1.5rem; }
-  .location-placeholder { min-height: 420px; padding: 2.2rem; }
 }
