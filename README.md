@@ -53,6 +53,7 @@ Protótipo do novo portal da Associação Paradesportiva JR-SP, desenvolvido com
 - A página Esporte Seguro centraliza os compromissos de proteção e os documentos de salvaguarda, conduta, comunicação de ocorrências, recrutamento seguro, privacidade e uso de imagens.
 - O canal de Ouvidoria permanece identificado como informação em definição e não deve ser substituído pelos contatos gerais da Associação.
 - A página Fale com a JR usa telefone/WhatsApp, e-mail e redes sociais já confirmados; manifestações sensíveis são encaminhadas à área de Esporte Seguro, sem usar os contatos gerais como Ouvidoria.
+- Fale com a JR integra o menu principal em todas as páginas. Em larguras intermediárias, o cabeçalho usa o menu compacto para preservar a leitura dos oito itens.
 - Até a validação dos arquivos oficiais, os cartões de documentos devem permanecer identificados como links em atualização.
 
 ### Conteúdo confirmado

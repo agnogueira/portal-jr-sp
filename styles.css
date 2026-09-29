@@ -157,6 +157,14 @@ footer { padding: 6rem max(4vw, calc((100vw - var(--max)) / 2)) 2rem; color: whi
   .footer-top .button { grid-column: 2; justify-self: start; }
 }
 
+@media (max-width: 1050px) {
+  .menu-button { display: flex; margin-left: .2rem; width: 42px; height: 42px; padding: 10px; border: 1px solid rgba(255,255,255,.45); background: transparent; flex-direction: column; justify-content: center; gap: 5px; }
+  .menu-button span:not(.sr-only) { width: 100%; height: 1px; background: white; }
+  .nav-wrap nav { display: none; position: fixed; inset: 92px 0 0; padding: 3rem max(1.5rem, 6vw); background: var(--wine); flex-direction: column; gap: 0; overflow-y: auto; }
+  .nav-wrap nav.open { display: flex; }
+  .nav-wrap nav a { padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,.18); font-size: 1.05rem; }
+}
+
 @media (max-width: 720px) {
   .section { padding: 5.5rem 1.25rem; }
   .site-header { position: absolute; }
